@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  header {
+    background: #4b0082;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    position: relative;
+    background: url('https://images.unsplash.com/photo-1556012018-70fcb5e8f317?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    background: #ff4081;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .courses {
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .course-card {
+    background: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .about {
+    background: #e9e3ff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .testimonials {
+    background: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .testimonial {
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  
+  footer {
+    background: #4b0082;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
